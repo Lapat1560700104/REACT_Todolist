@@ -21,7 +21,7 @@ constructor(props){
 
 addTodo(newtodo) {
   if (newtodo.id === '0') {
-    newtodo.id = 'TA-00' + (this.state.todoitem.length + 1)
+    newtodo.id = 'TASK-00' + (this.state.todoitem.length + 1)
     this.setState({
         todoitem: this.state.todoitem.concat([newtodo])
     })
