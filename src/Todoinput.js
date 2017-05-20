@@ -60,7 +60,7 @@ class Todoinput extends Component{
     render(){
         return(
             <div className="crtask">
-                <h2>Task Create</h2>
+                <h2>Task Editor</h2>
                 <hr/>
                     <p>What do you need to do? : <input type="text" value={this.state.title} onChange={(e)=>this.setState({title: e.target.value})} /></p>
                     <br/>
