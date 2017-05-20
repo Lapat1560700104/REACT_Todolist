@@ -1,0 +1,298 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/* CSS sheet */
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css');
+
+h1,h2,h3,h4 {
+    font-family: 'Lobster', cursive;
+    padding-left: 5%;
+    text-align: center;
+}
+
+p {
+    /* font-family: 'PT Sans Narrow', sans-serif; */
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding-left: 5%;
+}
+
+input {
+    width: 270px;
+    height: 40px;
+    float: right;
+    margin-right: 10%;
+    border: 1px solid black;
+}
+
+textarea {
+    width: 270px;
+    height: 100px;
+    float: right;
+    margin-right: 10%;
+    border: 1px solid black;
+}
+
+
+hr {
+	border-top: 2px solid black;
+  padding-top: 0;
+}
+
+ul{
+    height: 100%;
+
+    display: block;
+    -webkit-margin-before: auto;
+    -webkit-margin-after: auto;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: 40px;
+    -webkit-padding-start: 40px;
+
+    list-style-type: none;
+}
+
+li{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-align: left;
+  font-size: 150%;
+  margin-bottom: 3%;
+  padding: 2%;
+  border: 2px solid black;
+  background-color: lightpink;
+}
+
+/* Class */
+
+.App {
+  max-width: auto;
+  max-height: auto;
+  text-align: center;
+  clear: both;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  margin-left: 5%;
+
+}
+
+.App-header {
+  background-color: #222;
+  height: auto;
+  padding: 20px;
+  color: white;
+}
+
+.App-header hr{
+  margin-left: 45%;
+  width: 15%;
+  border-top: 3px solid white;  
+}
+
+.App-header h3{
+  font-family: 'Lato', sans-serif;
+}
+
+.App-Footer {
+  background-color: #222;
+  height: auto;
+  padding: 20px;
+  color: white;
+  clear: both;
+  
+}
+
+.App-Footer p{
+  font-family: 'Lato', sans-serif;
+  font-size: 180%;
+}
+
+.TextFooter p{
+  text-align: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.crtask {
+  width: 40%;
+  height:  auto;
+
+  float: left;
+  text-align: left;
+  margin-left: 8.5%;
+  margin-bottom: 5%;
+
+  border-style: solid;
+  border-width: 6px;
+  border-color: black;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fafad2+29,e3f285+76 */
+  background: #fafad2; /* Old browsers */
+  background: -moz-linear-gradient(45deg, #fafad2 29%, #e3f285 76%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #fafad2 29%,#e3f285 76%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #fafad2 29%,#e3f285 76%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafad2', endColorstr='#e3f285',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.crtask p{
+  font-size: 180%;
+}
+
+.listtask{
+  width: 40%;
+  height:  auto;
+
+  float: left;
+  margin-left: 3%;
+  margin-bottom: 5%;
+
+  border-style: solid;
+  border-width: 6px;
+  border-color: black;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffb6c1+29,ff8397+71,ff8397+71 */
+  background: #ffb6c1; /* Old browsers */
+  background: -moz-linear-gradient(45deg,  #ffb6c1 29%, #ff8397 71%, #ff8397 71%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg,  #ffb6c1 29%,#ff8397 71%,#ff8397 71%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg,  #ffb6c1 29%,#ff8397 71%,#ff8397 71%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb6c1', endColorstr='#ff8397',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.todopopup {
+  width: 60%;
+  height: auto;
+
+   float: left;
+  text-align: left;
+  margin-left: 8.5%;
+  margin-bottom: 5%;
+
+  border-style: solid;
+  border-width: 6px;
+  border-color: black;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fafad2+29,e3f285+76 */
+  background: #fafad2; /* Old browsers */
+  background: -moz-linear-gradient(45deg, #fafad2 29%, #e3f285 76%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #fafad2 29%,#e3f285 76%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #fafad2 29%,#e3f285 76%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafad2', endColorstr='#e3f285',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.Datepicker {
+    float: right;
+    margin-right: 10%;
+}
+
+.btn {        
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 1em;
+    background-color: #ccc;
+    background-image: linear-gradient(top, #eee, #ccc);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#cccccc');
+    border: 1px solid #777;
+    padding: 0 1.5em;
+    margin: 0.5em;
+    text-decoration: none;
+    color: #333;
+    text-shadow: 0 1px 0 rgba(255,255,255,.8);
+    border-radius: .2em;
+    box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+}
+
+.btn:hover {
+    background-color: #ddd;        
+    background-image: linear-gradient(top, #fafafa, #ddd);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa', EndColorStr='#dddddd');        
+}
+
+.btn:active {
+    box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+    position: relative;
+    top: 1px;
+}
+
+.btn:focus {
+    outline: 0;
+    background: #fafafa;
+}    
+
+.btn:before {
+    background: #ccc;
+    background: rgba(0,0,0,.1);
+    float: left;        
+    width: 1em;
+    text-align: center;
+    font-size: 1.25em;
+    margin: 0 1em 0 -1em;
+    padding: 0 .2em;
+    box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
+    border-radius: .15em 0 0 .15em;
+    pointer-events: none;        
+}
+
+.complete:before {
+    content: "\2714";
+}
+
+.edit:before {
+    content: "\270E";        
+}
+
+.delete:before {
+    content: "\2718";        
+}
+
+.item p{
+  font-size: 100%;
+}
+
+.btn_bar{
+  width: auto;
+  height: auto;
+  border-top: 1px dotted black;
+  
+}
+
+.btn_sum {
+  background: #091d2b;
+  background-image: -webkit-linear-gradient(top, #091d2b, #747e85);
+  background-image: -moz-linear-gradient(top, #091d2b, #747e85);
+  background-image: -ms-linear-gradient(top, #091d2b, #747e85);
+  background-image: -o-linear-gradient(top, #091d2b, #747e85);
+  background-image: linear-gradient(to bottom, #091d2b, #747e85);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #ffffff;
+  font-size: 1.5vw;
+  padding: 1% 2% 1% 2%;
+  text-decoration: none;
+  margin-top:3%;
+  margin-left: 45%;
+  margin-bottom: 5%;
+}
+
+.btn_sum:hover {
+  background: #fc533c;
+  background-image: -webkit-linear-gradient(top, #fc533c, #b2d934);
+  background-image: -moz-linear-gradient(top, #fc533c, #b2d934);
+  background-image: -ms-linear-gradient(top, #fc533c, #b2d934);
+  background-image: -o-linear-gradient(top, #fc533c, #b2d934);
+  background-image: linear-gradient(to bottom, #fc533c, #b2d934);
+  text-decoration: none;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
