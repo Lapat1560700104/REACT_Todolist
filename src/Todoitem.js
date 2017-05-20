@@ -28,11 +28,11 @@ class Todoitem extends Component{
     render() {
         return(
             <div className="item">
-                <h3>  {"Task No. :  " + this.props.todo.id} </h3>
+                <h3> Task No. {this.props.todo.id} </h3>
                <hr/>
 
-                <p> Title : {this.state.done ? " Complete( ✔ ):   " + this.props.todo.title : this.props.todo.title}</p>
-                <p> Date  : {this.props.todo.date.format()}</p>
+                <p>{this.state.done ? " Complete( ✔ )"+"Title :" + this.props.todo.title : "Title :"+this.props.todo.title}</p>
+                <p> Date  :{this.props.todo.date.format('MMMM Do YYYY') }</p>
                 <p> Task Description : {this.props.todo.desc}<br/></p>
                 <br/>
                 <section className="btn_bar">

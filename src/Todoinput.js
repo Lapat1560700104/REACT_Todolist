@@ -64,12 +64,15 @@ class Todoinput extends Component{
                 <hr/>
                     <p>What do you need to do? : <input type="text" value={this.state.title} onChange={(e)=>this.setState({title: e.target.value})} /></p>
                     <br/>
-                    <p>What date to record you task? : 
-                        <DatePicker
-                            selected={this.state.date}
-                            onChange={this.handleChange}
-                        />
+                    <p>What date to record you task? :  
+                        <section  className="sizeDP">
+                            <DatePicker
+                                selected={this.state.date}
+                                onChange={this.handleChange}
+                            />
+                        </section>
                     </p>
+                    
                     <br/>
                     <p>Task Description :<textarea type="text" value={this.state.desc} onChange={(e)=>this.setState({desc: e.target.value})}/></p>
                     <button onClick={this.addClicked} className="btn_sum" >SUBMIT</button>

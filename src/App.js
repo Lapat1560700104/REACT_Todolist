@@ -31,7 +31,7 @@ addTodo(newtodo) {
           if (item.id === newtodo.id) {
             item.title = newtodo.title,
             item.date = newtodo.date,
-            item.dsec = newtodo.desc
+            item.desc = newtodo.desc
           }
           
           return item
